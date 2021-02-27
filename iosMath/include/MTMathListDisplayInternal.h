@@ -9,6 +9,7 @@
 //
 
 #import "MTMathListDisplay.h"
+#import "MTFontMathTable.h"
 
 @interface MTDisplay ()
 
