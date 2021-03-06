@@ -22,7 +22,7 @@ let package = Package(
             name: "iosMath",
             dependencies: [],
             path: "iosMath",
-            resources: [.copy("img"), .copy("fonts")],
+            resources: [.process("img/"), .process("fonts/")],
             cSettings: [
                 .headerSearchPath(".")
             ])
